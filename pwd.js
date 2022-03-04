@@ -1,5 +1,3 @@
-// console.log('pwd is required');
-
 module.exports = {
    outputPWD(cmd) {
         if (cmd === 'pwd') {
@@ -7,7 +5,4 @@ module.exports = {
         } 
         process.stdout.write('\nprompt > ');
     }
-
 }
-
-// module.exports.output = outputPWD;
